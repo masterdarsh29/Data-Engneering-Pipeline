@@ -128,6 +128,14 @@ CREATE TABLE profit_loss_data_sink(
     EPS_in_Rs DOUBLE PRECISION,
     Dividend_Payout_Percent DOUBLE PRECISION
 );
+
+
+
+
+
+
+
+#from here continue to concourse pipelining repository for next tasks:
  
 drop table profit_loss_data_sink 
 select * from profit_loss_data_sink;
